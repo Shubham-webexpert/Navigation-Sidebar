@@ -1,0 +1,15 @@
+
+.pagecontainer{
+    display:flex ;
+margin: 20px;
+
+}
+
+.sidebar{
+    width: 40%;
+    
+}
+
+.pages{
+    width: 60%;
+}

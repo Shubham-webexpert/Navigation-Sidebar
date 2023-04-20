@@ -1,0 +1,20 @@
+.toolbar {
+  background-color: #181515de;
+  color: darkorange;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 17px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,44 @@
+.sidebarcontainer {
+  border: 1px solid black;
+  width: 80%;
+  height: 100vh;
+}
+
+.logo {
+  align-items:center;
+  display: flex;
+
+}
+.logo img {
+  width: 30%;
+}
+
+.logo span {
+  width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fruitspaper,.carspaper,.placespaper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.fruitspaper button,.carspaper button,.placespaper button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 5px;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.fruitspaper button:hover,.carspaper button:hover,.placespaper button:hover{
+    background-color: #0037ff;
+    color: #fff;
+    
+}
