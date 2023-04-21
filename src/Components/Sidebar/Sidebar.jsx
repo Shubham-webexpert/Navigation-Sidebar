@@ -97,11 +97,9 @@ const Sidebar = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Paper className="carspaper">
-                <button onClick={() => Navigate("/cars/lamborgini")}>
-                  Lamborgini
-                </button>
-                <button onClick={() => Navigate("/cars/bmw")}>BMW</button>
-                <button onClick={() => Navigate("/cars/tata")}>Tata</button>
+                <button onClick={()=>Navigate("/cars/lamborgini")}>Lamborgini</button>
+                <button onClick={()=>Navigate("/cars/bmw")}>BMW</button>
+                <button onClick={()=>Navigate("/cars/tata")}>Tata</button>
               </Paper>
             </AccordionDetails>
           </Accordion>
@@ -117,11 +115,9 @@ const Sidebar = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Paper className="placespaper">
-                <button onClick={() => Navigate("/places/mumbai")}>
-                  Mumbai
-                </button>
-                <button onClick={() => Navigate("/places/pune")}>Pune</button>
-                <button onClick={() => Navigate("/places/agra")}>Agra</button>
+                <button onClick={()=>Navigate("/places/mumbai")}>Mumbai</button>
+                <button onClick={()=>Navigate("/places/pune")}>Pune</button>
+                <button onClick={()=>Navigate("/places/agra")}>Agra</button>
               </Paper>
             </AccordionDetails>
           </Accordion>

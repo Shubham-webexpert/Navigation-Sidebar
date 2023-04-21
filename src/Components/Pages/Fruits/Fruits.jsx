@@ -6,4 +6,4 @@ const Fruits = () => {
   )
 }
 
-export default Fruits
+export default Fruits;
