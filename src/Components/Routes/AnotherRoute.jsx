@@ -13,6 +13,7 @@ import Tata from "../Pages/Cars/Tata";
 import Mumbai from "../Pages/Places/Mumbai";
 import Pune from "../Pages/Places/Pune";
 import Agra from "../Pages/Places/Agra";
+import Footer from "../Footer/Footer";
 
 const AnotherRoute = () => {
   return (
@@ -33,6 +34,7 @@ const AnotherRoute = () => {
           <Route path="/places/pune" Component={Pune} />
           <Route path="/places/agra" Component={Agra} />
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

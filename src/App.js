@@ -5,7 +5,7 @@ import AnotherRoute from "./Components/Routes/AnotherRoute";
 const App = () => {
   return (
     <div>
-      <AnotherRoute />
+      <RouteComponent />
     </div>
   );
 };

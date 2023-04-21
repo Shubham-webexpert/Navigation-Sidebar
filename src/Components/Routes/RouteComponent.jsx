@@ -14,6 +14,7 @@ import Places from "../Pages/Places/Places";
 import Mumbai from "../Pages/Places/Mumbai";
 import Pune from "../Pages/Places/Pune";
 import Agra from "../Pages/Places/Agra";
+import Footer from "../Footer/Footer";
 
 const RouteComponent = () => {
   return (
@@ -34,6 +35,7 @@ const RouteComponent = () => {
           <Route path="/places/pune" exact Component={Pune} />
           <Route path="/places/agra" exact Component={Agra} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
