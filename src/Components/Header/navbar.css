@@ -1,11 +1,18 @@
 .toolbar {
   background-color: #181515de;
-  color: darkorange;
   display: flex;
   justify-content: space-around;
   width: 100%;
   font-size: 17px;
   align-items: center;
+  text-align: center;
+}
+
+.toolbar span{
+  color: #ff1493;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
 }
 
 ul {

@@ -115,3 +115,15 @@ text-transform: uppercase;
  .btn:hover {
      background-color: #D32F2F !important
  }
+
+
+.feedbacktext{
+    color: #D32F2F  ;
+    text-align: center;
+}
+
+.feedbacktext2{
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+}

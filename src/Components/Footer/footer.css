@@ -1,86 +1,86 @@
-.footertoolbar{
-    background-color: #000000ee;
-    width: 100%;
-    color: #fff;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-    padding: 10px;    
+.footertoolbar {
+  background-color: #000000ee;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
 }
 
-.technology{
-        display: grid;
-        padding: 5px;
-        text-align: center;
-        grid-template-columns: auto auto;
-        gap: 10px;
-        font-size: 18px;
-        margin-left: 10px;
-        column-count: 2;
-
+.technology {
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  column-count: 2;
 }
-.htmlogo:hover{
-    background-color: #fff;
-    color: #ff7f50;
-}
-
-.csslogo:hover{
-    background-color:#fff;
-    color:#4169e1
+.htmlogo:hover {
+  background-color: #fff;
+  color: #ff7f50;
 }
 
-.angularicon:hover{
-    background-color:#fff;
-    color:red;
-}
-.javascriptlogo:hover{
-    color: #daa520;
-    background-color: #fff;
+.csslogo:hover {
+  background-color: #fff;
+  color: #4169e1;
 }
 
-.bootstrapicon:hover{
-    background-color: #fff;
-    color: #8a2be2;
+.angularicon:hover {
+  background-color: #fff;
+  color: red;
+}
+.javascriptlogo:hover {
+  color: #daa520;
+  background-color: #fff;
 }
 
-.reactlogo:hover{
-    background-color:  #142451;
-    color:#6f8ce3;
+.bootstrapicon:hover {
+  background-color: #fff;
+  color: #8a2be2;
 }
 
-.social{
-    display: grid;
-    padding: 5px;
-    grid-template-columns: auto auto;
-    gap: 15px;
-    font-size: 18px;
-    margin-left: 25px;
+.reactlogo:hover {
+  background-color: #142451;
+  color: #6f8ce3;
 }
 
-.youtubeicon:hover,.instagramicon:hover{
-    background-color: #fff;
-    color: red;
+.social {
+  display: grid;
+  padding: 5px;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  font-size: 18px;
+  margin-left: 25px;
 }
 
-.facebookicon:hover,.twittericon:hover{
-    color:#4169e1;
-    background-color: #fff;
+.youtubeicon:hover,
+.instagramicon:hover {
+  background-color: #fff;
+  color: red;
 }
 
-.address{
-padding: 10px;
-display: flex;
-flex-direction: column;
-align-items: center;
-
+.facebookicon:hover,
+.twittericon:hover {
+  color: #4169e1;
+  background-color: #fff;
 }
 
-.address span{
-    font-size: 13px;
-    width: 40%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.address {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address span {
+  font-size: 13px;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
